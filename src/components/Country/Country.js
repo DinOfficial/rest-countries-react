@@ -9,8 +9,8 @@ const Country = (props) => {
                   <div className="card">
                         <h1>This is : {name}</h1>
                         <img src={flag} alt="" />
-                        <h3>This is : {capital}</h3>
-                        <p>This is : {population}</p>
+                        <h3>Capital is : {capital}</h3>
+                        <p>Population : {population}</p>
                   </div>
             </div>
       );

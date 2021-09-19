@@ -14,7 +14,10 @@ const Countries = () => {
                   <h1>This is inside from Countries</h1>
                   <div className="country">
                         {
-                              countries.slice(0,50).map(country=> <Country country={country}></Country>)
+                              countries.slice(0, 50).map(country => <Country
+                                    key={country.capital}
+                                    country={country}
+                              ></Country>)
                         }
                   </div>
             </div>
