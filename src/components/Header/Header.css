@@ -1,0 +1,14 @@
+nav{
+      margin-top: 20px;
+}
+.header a{
+      font-family: 'Gluten', cursive;
+      font-size: 20px;
+      margin-right: 15px;
+      text-decoration: none;
+      color: whitesmoke;
+      padding: 10px 20px;
+      background-color: #060699;
+      border-radius: 10px;
+
+}
